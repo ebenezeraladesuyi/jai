@@ -3,7 +3,7 @@ import React from 'react'
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Header = () => {
 
@@ -29,7 +29,7 @@ const Header = () => {
             <NavLink to='/'>
                 <div className='lg:hidde p-2 rounded-md bg-white shadow-m w-[50px] md:w-[70px] z-40'>
                     {/* <img className="w-full " src={logo} alt="W2H-logo" /> */}
-                    <h5 className='text-black'>LOGO</h5>
+                    <h5 className='text-black font-bold'>JAI</h5>
                 </div>
             </NavLink>
 
@@ -48,22 +48,19 @@ const Header = () => {
                         <ol className='text-black hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
                     </NavLink>
 
-                    <NavLink to='/'>
+                    
+                    <Link offset={-100} smooth={true} duration={500} to="footer">
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
-                    </NavLink>
+                    </Link>
 
-                    {/* <Link offset={-100} smooth={true} duration={500} to="offer"> */}
-                    <NavLink to='/'>
+                    <Link offset={-100} smooth={true} duration={500} to="services">
+                    {/* <NavLink to='/'> */}
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Our Products</ol>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink to='/'>
+                    {/* <NavLink to='/'>
                         <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Cars</ol>
-                    </NavLink>
-
-                    {/* <Link offset={-100} smooth={true} duration={500} to="blog">
-                        <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Blog</ol>
-                    </Link> */}
+                    </NavLink> */}
 
                     {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
                     <NavLink to='/contact'>
@@ -104,22 +101,18 @@ const Header = () => {
                             <ol className='text-white hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
                         </NavLink>
 
-                        <NavLink to='/'>
+                        <Link offset={-100} smooth={true} duration={500} to="footer">
                             <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
-                        </NavLink>
+                        </Link>
 
-                        {/* <Link  offset={-100} smooth={true} duration={500} to="offer"> */}
-                        <NavLink to='/'>
+                        <Link  offset={-100} smooth={true} duration={500} to="services">
+                        {/* <NavLink to='/'> */}
                             <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Our Products</ol>
-                        </NavLink>
+                        </Link>
 
-                        <NavLink to='/'>
+                        {/* <NavLink to='/'>
                             <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Cars</ol>
-                        </NavLink>
-
-                        {/* <Link offset={-100} smooth={true} duration={500} to="blog">
-                            <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Blog</ol>
-                        </Link> */}
+                        </NavLink> */}
 
                         {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
                         <NavLink to='/contact'>

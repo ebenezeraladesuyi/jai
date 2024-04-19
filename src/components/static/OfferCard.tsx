@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 // import React from 'react'
 
+// import car from "../../assets/images/car.png"; 
+
 
 interface iServiceCard {
     img? : any;
@@ -11,23 +13,25 @@ interface iServiceCard {
 const OfferCard:React.FC<iServiceCard> = ({img, offerName, offerContent}) => {
 
   return (
-    <div className="w-full md:w-[31%] lg:w-[30%] flex flex-col items-center justify-center text-black h-[270px] md:h-[300px] rounded-md p-3 gap-5 md:gap-3 hover:bg-blue-500 hover:border-none transition-all duration-1000 ease-in-out hover:text-white shadow-md">
+    <div className="w-full md:w-[23%] lg:w-[30% flex flex-col items-center justify-center text-black h-[340px] md:h-[300px rounded-md p- gap-3 md:gap-3 hover:bg-blue-50 hover:border-none transition-all duration-1000 ease-in-out hover:text-whit shadow-md">
 
-        <div className="text-[50px]">
-            {/* <MdComputer /> */}
-            {img}
+        <div className="w-full overflow-hidden bg-gray-200 h-[47%]">
+            <img className="w-full" src={img} alt="" />
         </div>
 
-        <h3 className="text-[16px] font-bold text-center md:text-[21px]">
-            {/* Product Engineering */}
+        <hr className="border-[2px] border-orange-400 w-[50%] mb-[-10px] mt-[15px]" />
+
+        <h6 className="font-bold text-[14px] md:text-[17px]">
+            {/* Cars */}
             {offerName}
-        </h3>
+        </h6>
 
-        <h5 className="text-[11px] text-center md:w-[75%] w-[90%]">
-            {/* We will build your solution, whether bringing new amazing products and services to market, or discovering new ways. */}
+        <hr className="border-[2px] border-orange-400 w-[50%] mt-[-10px]" />
+
+        <h6 className="text-[11px] md:text-[12px] text-justify p-3">
+            {/* Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis velit, error doloremque ducimus, ipsam, aperiam corporis dolorem nam ab molestias temporibus praesentium ullam quam laboriosam! */}
             {offerContent}
-        </h5>
-
+        </h6>
     </div>
   )
 }
