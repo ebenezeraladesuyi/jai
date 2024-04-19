@@ -11,7 +11,10 @@ import OfferCard from "../../components/static/OfferCard";
 // import { SiAdobeindesign } from "react-icons/si";
 // import { GrTechnology } from "react-icons/gr";
 // import RevealOnScroll from "../../components/static/onScroll/RevealOnScroll";
-import car from "../../assets/images/car.png";
+import car from "../../assets/images/car1.png";
+import property from "../../assets/images/property.jpg";
+import barb from "../../assets/images/barb2.jpg";
+import dog from "../../assets/images/dogs.jpg";
 
 const Offer = () => {
   return (
@@ -32,19 +35,19 @@ const Offer = () => {
                     />
 
                     <OfferCard
-                        img={car}
+                        img={property}
                         offerName="Real Estate & Valuer"
                         offerContent="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis velit, error doloremque ducimus, ipsam, aperiam corporis dolorem nam ab molestias temporibus praesentium ullam quam laboriosam!"
                     />
 
                     <OfferCard
-                        img={car}
+                        img={barb}
                         offerName="Barbing Salon Setup"
                         offerContent="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis velit, error doloremque ducimus, ipsam, aperiam corporis dolorem nam ab molestias temporibus praesentium ullam quam laboriosam!"
                     />
 
                     <OfferCard
-                        img={car}
+                        img={dog}
                         offerName="Sales of Breeders (Dogs)"
                         offerContent="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis velit, error doloremque ducimus, ipsam, aperiam corporis dolorem nam ab molestias temporibus praesentium ullam quam laboriosam!"
                     />

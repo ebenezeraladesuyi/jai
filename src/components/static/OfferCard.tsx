@@ -13,10 +13,10 @@ interface iServiceCard {
 const OfferCard:React.FC<iServiceCard> = ({img, offerName, offerContent}) => {
 
   return (
-    <div className="w-full md:w-[23%] lg:w-[30% flex flex-col items-center justify-center text-black h-[340px] md:h-[300px rounded-md p- gap-3 md:gap-3 hover:bg-blue-50 hover:border-none transition-all duration-1000 ease-in-out hover:text-whit shadow-md">
+    <div className="w-full md:w-[23%] lg:w-[30% flex flex-col items-center justify-center text-black h-[360px] md:h-[300px rounded-md p- gap-3 md:gap-3 hover:bg-blue-50 hover:border-none transition-all duration-1000 ease-in-out hover:text-whit shadow-md overflow-hidden">
 
-        <div className="w-full overflow-hidden bg-gray-200 h-[47%]">
-            <img className="w-full" src={img} alt="" />
+        <div className="w-full overflow-hidden bg-gray-20 h-[55%">
+            <img className="w-full h-ful" src={img} alt="" />
         </div>
 
         <hr className="border-[2px] border-orange-400 w-[50%] mb-[-10px] mt-[15px]" />
