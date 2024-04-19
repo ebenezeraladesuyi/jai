@@ -36,7 +36,8 @@ const Offer = () => {
 
                     <OfferCard
                         img={property}
-                        offerName="Discover your dream home! Spacious interiors, modern amenities, and scenic views await in this luxurious property. Experience comfort and elegance at its finest. Your perfect sanctuary awaits!"
+                        offerName="Real Estate & Valuer"
+                        offerContent="Discover your dream home! Spacious interiors, modern amenities, and scenic views await in this luxurious property. Experience comfort and elegance at its finest. Your perfect sanctuary awaits!"
                     />
 
                     <OfferCard
@@ -47,7 +48,8 @@ const Offer = () => {
 
                     <OfferCard
                         img={dog}
-                        offerName="Discover your perfect furry companion! Our reputable breeding program offers healthy, well-socialized puppies raised with love. Find your new best friend today."
+                        offerName="Breeders (Dogs)"
+                        offerContent="Discover your perfect furry companion! Our reputable breeding program offers healthy, well-socialized puppies raised with love. Find your new best friend today."
                     />
 
                 </div>
