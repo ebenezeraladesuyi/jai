@@ -31,25 +31,23 @@ const Offer = () => {
                     <OfferCard
                         img={car}
                         offerName="Cars"
-                        offerContent="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis velit, error doloremque ducimus, ipsam, aperiam corporis dolorem nam ab molestias temporibus praesentium ullam quam laboriosam!"
+                        offerContent="Experience the thrill of the open road with our sleek and stylish cars. From smooth handling to cutting-edge technology, our vehicles offer the perfect blend of performance and luxury."
                     />
 
                     <OfferCard
                         img={property}
-                        offerName="Real Estate & Valuer"
-                        offerContent="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis velit, error doloremque ducimus, ipsam, aperiam corporis dolorem nam ab molestias temporibus praesentium ullam quam laboriosam!"
+                        offerName="Discover your dream home! Spacious interiors, modern amenities, and scenic views await in this luxurious property. Experience comfort and elegance at its finest. Your perfect sanctuary awaits!"
                     />
 
                     <OfferCard
                         img={barb}
                         offerName="Barbing Salon Setup"
-                        offerContent="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis velit, error doloremque ducimus, ipsam, aperiam corporis dolorem nam ab molestias temporibus praesentium ullam quam laboriosam!"
+                        offerContent="Transform your barbing salon dreams into reality with our expert setup services. From design consultation to equipment installation, we'll create a stylish and functional space that attracts customers and boosts profits."
                     />
 
                     <OfferCard
                         img={dog}
-                        offerName="Sales of Breeders (Dogs)"
-                        offerContent="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis velit, error doloremque ducimus, ipsam, aperiam corporis dolorem nam ab molestias temporibus praesentium ullam quam laboriosam!"
+                        offerName="Discover your perfect furry companion! Our reputable breeding program offers healthy, well-socialized puppies raised with love. Find your new best friend today."
                     />
 
                 </div>
