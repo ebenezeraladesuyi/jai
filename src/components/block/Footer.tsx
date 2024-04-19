@@ -24,7 +24,7 @@ const Footer = () => {
           </h6>
 
           <h5 className="text-[12px] lg:text-[14px] text-cente mb-[20px] flex flex-col text-[#50519f text-blac ">
-            <span className="text-[#80c41c]">Address:</span>Lagos State, Nigeria  <span className="text-[#80c41c]  ">Phone:</span> +234 (0) 703 675 0857 || +234 (0) 810 546 2237 <span className="text-[#80c41c]">Email:</span> justiceadegokeinvestment@gmail.com
+            <span className="text-[#80c41c]">Address:</span>Lagos State, Nigeria  <span className="text-[#80c41c]  ">Phone:</span> +234 (0) 903 615 0587 || +234 (0) 708 966 6137 <span className="text-[#80c41c]">Email:</span> justiceade202@gmail.com
           </h5>
 
           <div className="flex gap-3 items-center">
