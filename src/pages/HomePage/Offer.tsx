@@ -43,13 +43,13 @@ const Offer = () => {
                     <OfferCard
                         img={barb}
                         offerName="Barbing Salon Setup"
-                        offerContent="Transform your barbing salon dreams into reality with our expert setup services. From design consultation to equipment installation, we'll create a stylish and functional space that attracts customers and boosts profits."
+                        offerContent="Transform your barbing salon dreams into reality with our expert setup services. From design, we'll create a stylish and functional space that attracts customers and boosts profits."
                     />
 
                     <OfferCard
                         img={dog}
                         offerName="Breeders (Dogs)"
-                        offerContent="Discover your perfect furry companion! Our reputable breeding program offers healthy, well-socialized puppies raised with love. Find your new best friend today."
+                        offerContent="Discover your perfect furry companion! Our reputable breeding program offers healthy, well-socialized puppies raised with love, in good health and treatment. Find your new best friend today."
                     />
 
                 </div>
