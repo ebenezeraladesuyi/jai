@@ -50,7 +50,7 @@ const Testimonies = () => {
 
   return (
     // <SlideInComponent>
-      <div id="testimonies" className="w-full h-[70vh p-[30px] bg-gray-100 bg-opacity- bg-testiBg text-black flex flex-col gap-4 justify-center bg-opac items-center">
+      <div id="testimonies" className="w-full h-[70vh p-[30px] bg-gray-100 bg-opacity- bg-testiBg text-black flex flex-col gap-4 justify-center bg-opac items-center overflow-hidden">
 
           <h5 className="text-[14px] font-bold md:text-left animate-bounce text-orange-500">TESTIMONIES</h5>
 

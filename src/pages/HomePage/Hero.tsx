@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <motion.div className="w-full h-[100%] md:h-[100vh] bg-blac flex justify-center items-center overflow-x-hidden"
+    <motion.div className="w-full h-[100%] md:h-[100vh] bg-blac flex justify-center items-center overflow-hidden"
     initial={{ opacity: 0, y: -50 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8, delay: 0.2 }}

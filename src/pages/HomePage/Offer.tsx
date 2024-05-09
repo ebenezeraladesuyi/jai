@@ -19,7 +19,7 @@ import dog from "../../assets/images/dogs.jpg";
 const Offer = () => {
   return (
     // <RevealOnScroll>
-        <div id="services" className="w-full flex items-center justify-center relative font-pop"> 
+        <div id="services" className="w-full flex items-center justify-center relative font-pop overflow-hidden"> 
             <div className="w-[90%]  flex flex-col justify-center items-center py-[40px] gap-4">
 
                 <h5 className="text-[14px] font-bold md:text-left animate-bounce text-orange-500">OUR SERVICES</h5>

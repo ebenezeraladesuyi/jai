@@ -1,5 +1,6 @@
 // import React from 'react'
 
+import Cars from "./Cars"
 import CountUpSection from "./CountUp"
 import Hero from "./Hero"
 import Offer from "./Offer"
@@ -11,6 +12,7 @@ const HomeComp = () => {
         <Hero />
         <CountUpSection />
         <Offer />
+        <Cars />
         <Testimonies />
     </div>
   )

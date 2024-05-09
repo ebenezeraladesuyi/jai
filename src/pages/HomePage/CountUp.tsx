@@ -49,7 +49,7 @@ const CountUpSection: React.FC = () => {
 
   return (
     // <RevealOnScroll>
-      <div className="count-up-section w-full h-[50vh md:h-[30vh] bg-black text-white flex  items-center justify-center md:gap-10 font-bold pt-[30px] pb-[30px]">
+      <div className="count-up-section w-full h-[50vh md:h-[30vh] bg-black text-white flex  items-center justify-center md:gap-10 font-bold pt-[30px] pb-[30px] overflow-hidden">
 
           <div className='w-full md:w-[70%] lg:w-[55%] flex flex-col md:flex-row items-center gap-5 justify-center md:justify-between'>
               
