@@ -94,7 +94,7 @@ const Cars = () => {
                                 <h6 className="font-bold text-[18px]">{car?.carName}</h6>
                                 <h6 className=""><span className="font-bold">(N)</span> {car?.price} </h6>
 
-                                <a href="https://wa.link/vlgbcl" className="bg-orange-400 p-2 rounded-md px-3 text-white">Order Now</a>
+                                <a href="https://wa.link/vlgbcl" className="bg-orange-400 p-2 rounded-md px-3 text-white">Chat Us to Order</a>
                             </div>
                             
                         </div>
