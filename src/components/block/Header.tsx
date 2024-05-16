@@ -1,5 +1,5 @@
 import React from 'react'
-// import logo from "../../assets/images/DWC-Logo.png";
+import logo from "../../assets/images/jai-black.png";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
@@ -27,9 +27,9 @@ const Header = () => {
 
             {/* <div className='flex justify-between items-center w-full'> */}
             <NavLink to='/'>
-                <div className='lg:hidde p-2 rounded-md bg-white shadow-m w-[50px] md:w-[70px] z-40'>
-                    {/* <img className="w-full " src={logo} alt="W2H-logo" /> */}
-                    <h5 className='text-black font-bold'>JAI</h5>
+                <div className='lg:hidde p-2 rounded-md bg-white shadow-m w-[80px] md:w-[90px] z-40'>
+                    <img className="w-full " src={logo} alt="W2H-logo" />
+                    {/* <h5 className='text-black font-bold'>JAI</h5> */}
                 </div>
             </NavLink>
 

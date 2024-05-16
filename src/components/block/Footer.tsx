@@ -1,6 +1,6 @@
 // import React from 'react'
 
-// import logo from "../../assets/images/vola2.png";
+import logo from "../../assets/images/jai-white.png";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { MdAttachEmail } from "react-icons/md";
 
@@ -15,8 +15,9 @@ const Footer = () => {
             {/* <h6>JAI</h6> */}
           {/* </div> */}
           
-          <div className='lg:hidde p-2 rounded-md bg-white shadow-m w-[50px] md:w-[70px] z-40 flex items-center justify-center'>
-                <h5 className='text-black text-[20px] font-bold'>JAI</h5>
+          <div className='lg:hidde p-2 rounded-md bg-whit shadow-m w-[90px] md:w-[120px] z-40 flex items-center justify-center'>
+                {/* <h5 className='text-black text-[20px] font-bold'>JAI</h5> */}
+                <img className="w-full" src={logo} alt="" /> 
             </div>
 
           <h6 className="text-[12px] md:text-[15px] text-justify text-[#50519f text-blac ">
